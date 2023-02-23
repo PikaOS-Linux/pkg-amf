@@ -1,0 +1,36 @@
+amf (1.4.29-99pika1) kinetic; urgency=medium
+
+  * Update to 1.4.29
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
+amf (1.4.28-99pika1) kinetic; urgency=medium
+
+  * Update to 1.4.28
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
+amf (1.4.26-99pika1) kinetic; urgency=medium
+
+  * Rebrand to PikaOS
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
+
+amf (1.4.26-99nobara1) kinetic; urgency=low
+
+  * Upgrade to Kinetic 22.10
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
+amf (1.4.26-jammy) jammy; urgency=low
+
+  * second test
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
+amf (1.4.26) focal; urgency=low
+
+  * First built.
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 13:03:00 +0200
