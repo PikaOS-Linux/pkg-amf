@@ -14,7 +14,7 @@ apt-get build-dep ./ -y
 
 # Build package
 LOGNAME=root dh_make --createorig -y -l -p amf_1.4.29
-dpkg-buildpackage
+dpkg-buildpackage --no-sign
 
 # Move the debs to output
 cd ../
