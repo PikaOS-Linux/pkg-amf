@@ -8,7 +8,7 @@ rsync -azP --exclude '*.deb' ferreo@direct.pika-os.com:/srv/www/pikappa/ ./outpu
 reprepro -V --basedir ./output/repo/ removefilter lunar 'Package (% libffmpeg-amf*)'
 
 # Add the new package to the repo
-reprepro -V --basedir ./output/repo/ includedeb lunar ./output/libffmpeg-amf*.deb
+reprepro -C main -V --basedir ./output/repo/ includedeb lunar ./output/libffmpeg-amf*.deb
 
 # Push the updated ppa repo to the server
 rsync -azP ./output/repo/ ferreo@direct.pika-os.com:/srv/www/pikappa/
