@@ -1,14 +1,15 @@
+#! /bin/bash
+
 # Clone Upstream
-git clone https://github.com/GPUOpen-LibrariesAndSDKs/AMF
-cp -rvf ./debian ./AMF
-mv ./AMF ./amf
+git clone ./amf https://github.com/GPUOpen-LibrariesAndSDKs/AMF -b v1.4.30
+cp -rvf ./debian ./amf
 cd ./amf
+for i in ../patches/* ; do patch -Np1 -i $i; done
 
 # Get build deps
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p amf_1.4.29
 dpkg-buildpackage --no-sign
 
 # Move the debs to output

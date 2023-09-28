@@ -1,4 +1,10 @@
-amf (1.4.29-99pika2.lunar) kinetic; urgency=medium
+amf (1.4.30-99pika1.lunar) mantic; urgency=medium
+
+  * Update to mantic
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
+amf (1.4.29-99pika2.lunar) lunar; urgency=medium
 
   * Update to lunar
 
