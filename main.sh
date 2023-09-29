@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Clone Upstream
-git clone ./amf https://github.com/GPUOpen-LibrariesAndSDKs/AMF -b v1.4.30
+git clone https://github.com/GPUOpen-LibrariesAndSDKs/AMF ./amf  -b v1.4.30
 cp -rvf ./debian ./amf
 cd ./amf
 for i in ../patches/* ; do patch -Np1 -i $i; done
